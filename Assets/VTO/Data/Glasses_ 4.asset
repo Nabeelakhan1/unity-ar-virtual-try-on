@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VTO.GlassesItem
   _displayName: Glasses
   _thumbnail: {fileID: -5159087384432534610, guid: 215687feeab0b7445b4a1cd86c82c2e1, type: 3}
-  _prefab: {fileID: 158542314788762626, guid: 3733069d0aaa275449ecb5515617be41, type: 3}
+  _prefab: {fileID: 158542314788762626, guid: 91ebea1843fd4e24bab9e8db33906399, type: 3}
   _positionOffset: {x: 0, y: 0, z: 0}
   _rotationOffset: {x: 0, y: 0, z: 0}
-  _scale: 1
+  _scale: 1.3
