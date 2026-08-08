@@ -1,33 +1,43 @@
-# unity-ar-virtual-try-on
 # Unity AR Virtual Try-On
 
-A simple **AR Virtual Try-On (VTO)** demo built with Unity, allowing users to virtually try on different glasses using face tracking.
+A simple AR Virtual Try-On (VTO) demo built with Unity.
 
-## Features
+The idea is straightforward: open the camera, detect the user's face, place a pair of virtual glasses on it, and let the user switch between different glasses from the bottom of the screen.
 
-* 📷 Live front-camera feed
-* 👤 Face tracking
-* 👓 Virtual glasses placement
-* 🔄 Glasses follow face movement
-* 🕶️ Multiple glasses options
-* 👆 Simple glasses selection UI
+I built this as a small AR prototype to explore how a glasses virtual try-on experience could be implemented in Unity.
 
-## Tech Stack
+## What it does
 
-* Unity
-* C#
-* AR / Face Tracking
+- Uses the device's front camera
+- Tracks the user's face
+- Places 3D glasses on the user's face
+- Keeps the glasses aligned as the user moves
+- Supports multiple glasses models
+- Allows switching between glasses from the UI
+- Handles basic camera and face-detection states
 
-## Status
+## Tech
 
-🚧 **In Development**
-
-This project is a prototype/demo focused on exploring AR-based virtual glasses try-on in Unity.
+- Unity
+- C#
+- AR / Face Tracking
+- glTF / GLB 3D assets
 
 ## Demo
 
-Coming soon.
+_Coming soon_
 
-## License
+A short video/GIF demonstrating the try-on experience will be added here.
 
-This project is for demonstration and learning purposes.
+## Project Structure
+
+The project is kept intentionally simple since this is a prototype.
+
+```text
+Assets/
+├── Scenes/
+├── Scripts/
+├── Prefabs/
+├── Models/
+├── Materials/
+└── UI/
